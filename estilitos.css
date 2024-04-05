@@ -1,0 +1,33 @@
+body {
+    background-color: #0D2C54;
+    color: white; 
+    font-family: Verdana, sans-serif; 
+}
+
+header h1 {
+    color: #ffffff;
+    font-family: Verdana, sans-serif;
+    padding: 20px 0;
+    text-align: center;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #1E5E9B;
+    border-radius: 5px;
+}
+
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    header h1 {
+        font-size: 24px;
+    }
+}
